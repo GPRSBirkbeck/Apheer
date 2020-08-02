@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Apheer</string>
+    <string name="title_activity_view_your_location">Map</string>
+    <string name="maps_api_key">AIzaSyDTCxfV3nMXckjvzqYuD0U8WqWLmldjfZA</string>
+</resources>
