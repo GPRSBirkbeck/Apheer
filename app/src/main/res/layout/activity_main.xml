@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/map1">
 
     <TextView
         android:id="@+id/welcome_textview"
@@ -26,7 +27,7 @@
         android:textSize="24dp"
         android:onClick="inviteFriendEmailButton"
         android:textAllCaps="false"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome_textview"
@@ -41,24 +42,10 @@
         android:textSize="24dp"
         android:onClick="seeMeOnMap"
         android:textAllCaps="false"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/invite_friend_email_button"
-        android:textColor="#fff"
-        android:backgroundTint="@color/colorPrimary"/>
-
-    <Button
-        android:id="@+id/send_location_email_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Save your location"
-        android:textSize="24dp"
-        android:textAllCaps="false"
-        android:layout_marginTop="32dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view_location_on_map_button"
         android:textColor="#fff"
         android:backgroundTint="@color/colorPrimary"/>
 

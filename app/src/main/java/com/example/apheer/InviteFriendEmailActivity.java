@@ -43,8 +43,8 @@ public class InviteFriendEmailActivity extends AppCompatActivity {
         intent.setData(Uri.parse("mailto:"));
         intent.putExtra(Intent.EXTRA_EMAIL, new String[]{
                 friendEmail});
-        intent.putExtra(Intent.EXTRA_SUBJECT, "An mysterious mApp has appeared in your inbox Sire");
-        intent.putExtra(Intent.EXTRA_TEXT, "You have received an invitation from fellow high-seas scalleywag" + inviterName);
+        intent.putExtra(Intent.EXTRA_SUBJECT, "A mysterious mApp has appeared in your inbox Sire");
+        intent.putExtra(Intent.EXTRA_TEXT, "You have received an invitation from fellow high-seas scalleywag " + inviterName + ". Go to apheer.com/signup to join");
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
